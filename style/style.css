@@ -1,0 +1,131 @@
+/* 
+
+     ============================================================
+      
+          _____________   ^^^^^^^^^^    ____________________
+
+[   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  ]
+
+          _____________   ^^^^^^^^^^    ____________________
+
+     ============================================================
+
+*/
+ * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: #c31432;
+    background: -webkit-gradient(linear, left top, right top, from(#240b36), to(#c31432));
+    background: linear-gradient(to right, #240b36, #c31432);
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #c31432;
+    background: -webkit-gradient(linear, left top, right top, from(#240b36), to(#c31432));
+    background: linear-gradient(to right, #240b36, #c31432);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .start {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: transparent;
+  }
+  
+  .start h1 {
+    letter-spacing: 6px;
+    font-size: 3em;
+    font-family: 'Abel', sans-serif;
+  }
+  
+  .start button {
+    outline: none;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    padding: 8px 34px;
+    font-size: larger;
+  }
+  
+  .start button:hover {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  
+  .start button:active {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+  
+  .score {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .score h2 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    margin-top: 8px;
+    font-size: large;
+  }
+  
+  /* 
+
+     ============================================================
+      
+          _____________   ^^^^^^^^^^    ____________________
+
+[   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  ]
+
+          _____________   ^^^^^^^^^^    ____________________
+
+     ============================================================
+
+*/
